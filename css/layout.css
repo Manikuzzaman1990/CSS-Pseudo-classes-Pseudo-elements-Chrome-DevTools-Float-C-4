@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.header {
+    background-color: rosybrown;
+    padding: 15px;
+}
+.logo {
+    float: left;
+}
+.logo h1 {
+    color: white;
+}
+.main-nav {
+    float: right;
+}
+.main-nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.main-nav a:hover {
+    color: red;
+}
+.about-area {
+    background-color: #999;
+    padding: 20px;
+}
+.about-image {
+    float: left;
+    width:50%;
+}
+.about-image img {
+    width: 100%;
+}
+.about-text {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+}
+.about-text h2 {
+    margin-bottom: 15px;
+}
+.about-text a {
+    display: inline-block;
+    margin-top: 15px;
+}

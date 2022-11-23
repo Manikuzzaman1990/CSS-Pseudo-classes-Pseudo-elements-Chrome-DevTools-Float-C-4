@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    font-size: 20px;
+}
+.style-list li:first-child {
+    color: red;
+}
+.style-list li:last-child {
+    color: blue;
+}
+.style-list li:nth-child(3) {
+    color: chocolate;
+}
+.style-list li:nth-child(7) {
+    color: firebrick;
+}
+.style-list li:nth-child(odd) {
+    background-color: green;
+}
+.style-list li:nth-child(even) {.style-list 
+    background-color: pink;
+}
+div {
+    border: 5px solid #777;
+    margin-bottom: 15px;
+}
+div:last-child {
+    background-color: blue;
+}
+h2::first-letter {
+    font-size: 50px;
+    color: rebeccapurple;
+}
+p::first-line {
+    color: red;
+}
+h2 {
+    position: relative;
+}
+h2::before {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: blue;
+    left: 0;
+    bottom: 0;
+}
+h2::after {
+    content: "Offer";
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    text-transform:uppercase;
+    position: absolute;
+    border-radius: 15px;
+    top: -8px;
+}
+.position-div {
+    position: relative;
+    padding: 28px;
+}
+.position-div h1 {
+    background-color: saddlebrown;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
